@@ -1,0 +1,8 @@
+apples,3.25
+bread,2.50
+carrots,2.75
+tomatoes,5
+eggs,3.10
+flour,1.75
+blueberries,4
+jam,7.50

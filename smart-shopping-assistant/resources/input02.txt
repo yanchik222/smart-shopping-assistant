@@ -1,0 +1,8 @@
+orange,1.50
+pasta,2.25
+rice,3
+tomato,2
+cheese,5
+yogurt,1.80
+juice,6.50
+tea,4

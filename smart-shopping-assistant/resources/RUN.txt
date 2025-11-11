@@ -1,0 +1,124 @@
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/input01.txt
+budget: 1
+
+NOTES: Testing set of elements found where no element
+    exists with value less than budget.
+-----------------------------------------------------
+
+The list of groceries has 8 items.
+Groceries wanted:
+[3.25, 2.5, 2.75, 5.0, 3.1, 1.75, 4.0, 7.5]
+
+Enter your budget:
+1
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 909400 ns
+Purchased grocery prices are:
+[]
+Done with ShoppingBag.
+
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/input01.txt
+budget: 29.85
+
+NOTES: Testing set of elements found with sums
+       to exactly to target budget.
+-----------------------------------------------------
+
+The list of groceries has 8 items.
+Groceries wanted:
+[3.25, 2.5, 2.75, 5.0, 3.1, 1.75, 4.0, 7.5]
+
+Enter your budget:
+29.85
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 1 ms : 913900 ns
+Purchased grocery prices are:
+[3.25, 2.5, 2.75, 5.0, 3.1, 1.75, 4.0, 7.5]
+Done with ShoppingBag.
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/input01.txt
+budget: 2000
+
+NOTES: Testing target budget > sum of all elements.
+-----------------------------------------------------
+
+The list of groceries has 8 items.
+Groceries wanted:
+[3.25, 2.5, 2.75, 5.0, 3.1, 1.75, 4.0, 7.5]
+
+Enter your budget:
+2000
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 188800 ns
+Purchased grocery prices are:
+[3.25, 2.5, 2.75, 5.0, 3.1, 1.75, 4.0, 7.5]
+Done with ShoppingBag.
+
+---------------------------------------------------
+---------------------------------------------------
+Test file: resources/input02.txt
+budget: 26.05
+
+NOTES: Testing set of elements found with sums
+       to exactly to target budget.
+---------------------------------------------------
+
+The list of groceries has 8 items.
+Groceries wanted:
+[1.5, 2.25, 3.0, 2.0, 5.0, 1.8, 6.5, 4.0]
+
+Enter your budget:
+26.05
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 558900 ns
+Purchased grocery prices are:
+[1.5, 2.25, 3.0, 2.0, 5.0, 1.8, 6.5, 4.0]
+Done with ShoppingBag.
+
+
+---------------------------------------------------
+---------------------------------------------------
+Test file: resources/input02.txt
+budget: 7
+
+NOTES: Testing target budget returning closest match.
+---------------------------------------------------
+
+The list of groceries has 8 items.
+Groceries wanted:
+[1.5, 2.25, 3.0, 2.0, 5.0, 1.8, 6.5, 4.0]
+
+Enter your budget:
+7
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 20900 ns
+Purchased grocery prices are:
+[2.0, 5.0]
+Done with ShoppingBag.
+
+
+
+---------------------------------------------------
+---------------------------------------------------
+Test file: resources/input02.txt
+budget: 400
+
+NOTES: Testing target budget > sum of all elements.
+---------------------------------------------------
+
+The list of groceries has 8 items.
+Groceries wanted:
+[1.5, 2.25, 3.0, 2.0, 5.0, 1.8, 6.5, 4.0]
+
+Enter your budget:
+400
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 438100 ns
+Purchased grocery prices are:
+[1.5, 2.25, 3.0, 2.0, 5.0, 1.8, 6.5, 4.0]
+Done with ShoppingBag.
